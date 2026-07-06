@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>라면 물의 양 계산기 — 개수별·브랜드별 정확한 물 양 (ml·종이컵 환산) | 라면워터</title>
+<meta name="description" content="라면 1개, 2개, 3개 끓일 때 물의 양이 궁금하세요? 개수와 브랜드만 고르면 정확한 물의 양을 ml, 종이컵, 생수병 기준으로 바로 알려드립니다. 신라면·진라면·너구리·짜파게티·불닭볶음면 조리법 총정리.">
+<meta property="og:title" content="라면 물의 양 계산기 — 개수별·브랜드별 정확한 물 양">
+<meta property="og:description" content="개수와 브랜드만 고르면 물의 양을 ml·종이컵·생수병 기준으로 바로 계산해드립니다.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"라면워터","description":"라면 개수별·브랜드별 물의 양 계산기"}
+</script>
+</head>
+<body>
+<header class="site-header"><div class="inner">
+  <a class="logo" href="index.html">🍜 라면워터</a>
+  <nav>
+    <a href="water-2.html">개수별</a>
+    <a href="brand-shin.html">브랜드별</a>
+    <a href="tip-paper-cup.html">꿀팁</a>
+    <a href="game.html">쉬어가기</a>
+  </nav>
+</div></header>
+
+<main>
+  <h1>라면 물의 양 계산기</h1>
+  <p class="lead">매번 검색하지 마세요. 개수와 종류만 고르면 물의 양을 바로 알려드립니다.</p>
+
+  <div class="calc">
+    <div class="row">
+      <label>몇 개 끓이나요?</label>
+      <div class="count-btns" id="count-btns">
+        <button data-n="1" class="on">1개</button>
+        <button data-n="2">2개</button>
+        <button data-n="3">3개</button>
+        <button data-n="4">4개</button>
+        <button data-n="5">5개</button>
+      </div>
+    </div>
+    <div class="row">
+      <label>어떤 라면인가요?</label>
+      <select id="brand">
+        <option value="basic">일반 봉지라면 (신라면·진라면·안성탕면 등)</option>
+        <option value="neoguri">너구리</option>
+        <option value="samyang">삼양라면</option>
+        <option value="chapagetti">짜파게티</option>
+        <option value="buldak">불닭볶음면</option>
+        <option value="bibim">팔도비빔면</option>
+      </select>
+    </div>
+    <div class="result">
+      <div class="ml" id="r-ml">550ml</div>
+      <div class="conv" id="r-conv">종이컵 약 3컵 · 생수병(500ml) 1병 + 조금</div>
+      <div class="note" id="r-note">봉지 표기 기준입니다. 국물이 짜면 다음엔 50ml 늘려보세요.</div>
+    </div>
+  </div>
+
+  <h2>개수별 물의 양 한눈에 보기 (농심 공식 기준)</h2>
+  <table>
+    <tr><th>개수</th><th>물의 양</th><th>종이컵(190ml)</th><th>생수병(500ml)</th></tr>
+    <tr><td><a href="water-1.html">1개</a></td><td>550ml</td><td>약 3컵</td><td>1병 + 반 컵</td></tr>
+    <tr><td><a href="water-2.html">2개</a></td><td>880ml</td><td>약 4.5컵</td><td>1병 + 2컵</td></tr>
+    <tr><td><a href="water-3.html">3개</a></td><td>1,400ml</td><td>약 7.5컵</td><td>2병 + 2컵</td></tr>
+    <tr><td><a href="water-4.html">4개</a></td><td>1,800ml</td><td>약 9.5컵</td><td>3병 + 1.5컵</td></tr>
+    <tr><td><a href="water-5.html">5개</a></td><td>2,300ml</td><td>약 12컵</td><td>4병 + 1.5컵</td></tr>
+  </table>
+  <p class="tip">💡 <b>라면 2개 = 물 2배(1,100ml)가 아닙니다!</b> 물이 많을수록 증발이 줄기 때문에, 농심 공식 기준은 2개 880ml입니다. 왜 그런지는 <a href="water-2.html">라면 2개 물의 양</a> 글에서 확인하세요.</p>
+
+  <!-- ===== 광고 자리: 애드센스 승인 후 아래 div 내부를 광고 코드로 교체 ===== -->
+  <div class="ad-slot">광고 영역</div>
+
+  <h2>브랜드별 정확한 조리법</h2>
+  <div class="related"><ul>
+    <li><a href="brand-shin.html">신라면 — 물 550ml, 4분 30초 (가장 많이 찾는 기준)</a></li>
+    <li><a href="brand-jin.html">진라면 — 물 550ml, 매운맛·순한맛 차이</a></li>
+    <li><a href="brand-neoguri.html">너구리 — 물 550ml, 5분 (다시마 활용법)</a></li>
+    <li><a href="brand-chapagetti.html">짜파게티 — 물 600ml, 물 버리는 타이밍</a></li>
+    <li><a href="brand-buldak.html">불닭볶음면 — 물 600ml, 덜 맵게 먹는 법</a></li>
+    <li><a href="brand-bibim.html">팔도비빔면 — 삶는 시간과 찬물 헹구기</a></li>
+  </ul></div>
+
+  <h2>라면 꿀팁</h2>
+  <div class="related"><ul>
+    <li><a href="tip-paper-cup.html">계량컵 없이 종이컵으로 물 정확히 재는 법</a></li>
+    <li><a href="tip-kkodeul.html">꼬들면 만드는 물의 양과 시간</a></li>
+    <li><a href="tip-half.html">라면 반개만 끓일 때 물과 스프의 양</a></li>
+  </ul></div>
+
+  <h2>쉬어가기 — 라면 끓는 동안 한 판!</h2>
+  <a class="game-banner" href="game.html">🍎 사과 팡! — 퍼즐
+    <span>드래그해서 합쳐서 10! 물 끓는 시간 동안 즐기는 2분 퍼즐.</span></a>
+  <a class="game-banner blue" href="game-shooter.html">🚀 로켓 팡! — 슈팅
+    <span>손가락으로 움직이면 자동 발사! 아이템 먹고 외계인을 막아내세요.</span></a>
+  <a class="game-banner orange" href="game-brick.html">🧱 벽돌 팡! — 벽돌깨기
+    <span>공을 튕겨 벽돌을 부수세요. 멀티볼 아이템에 레벨 무한!</span></a>
+</main>
+
+<footer>
+  본 사이트의 조리 정보는 각 제조사 봉지 표기 기준이며, 제품 리뉴얼에 따라 달라질 수 있습니다.<br>
+  <a href="about.html">사이트 소개</a> · <a href="privacy.html">개인정보처리방침</a><br>
+  © 2026 라면워터
+</footer>
+
+<script>
+(function(){
+  // 국물라면: 농심 공식 개수별 물의 양 (증발량 때문에 단순 배수가 아님)
+  var SOUP_WATER  = [550, 880, 1400, 1800, 2300];
+  // 물 버리는 라면: 삶는 물이라 정확할 필요 없음 (넉넉한 기준치)
+  var DRAIN_WATER = [600, 1000, 1400, 1800, 2200];
+  var data = {
+    basic:      {name:'일반 봉지라면', note:'농심 공식 기준입니다. 스프는 2개부터 다 넣지 말고 맛보며 조절하세요.'},
+    neoguri:    {name:'너구리', note:'다시마는 처음부터 같이 넣고 5분 끓이세요.'},
+    samyang:    {name:'삼양라면', note:'농심 공식 표를 준용한 값입니다. 조리 시간은 4분입니다.'},
+    chapagetti: {drain:true, name:'짜파게티', note:'면수는 8큰술 정도만 남기고 버리는 제품이라, 물이 조금 많아도 괜찮습니다.'},
+    buldak:     {drain:true, name:'불닭볶음면', note:'면 삶은 물은 8큰술 정도만 남기고 버립니다. 물이 조금 많아도 괜찮습니다.'},
+    bibim:      {drain:true, name:'팔도비빔면', note:'삶은 뒤 찬물에 헹구는 제품이라, 물은 넉넉하면 됩니다.'}
+  };
+  var count = 1;
+  var btns = document.querySelectorAll('#count-btns button');
+  var sel = document.getElementById('brand');
+
+  function cups(ml){ return (Math.round(ml / 190 * 2) / 2).toLocaleString('ko-KR'); }
+  function bottles(ml){
+    var b = Math.floor(ml / 500), rest = ml - b * 500;
+    var restCups = Math.round(rest / 190 * 2) / 2;
+    if(b === 0) return restCups + '컵';
+    return b + '병' + (restCups > 0 ? ' + ' + restCups + '컵' : '');
+  }
+  function update(){
+    var d = data[sel.value];
+    var ml = (d.drain ? DRAIN_WATER : SOUP_WATER)[count - 1];
+    document.getElementById('r-ml').textContent = ml.toLocaleString('ko-KR') + 'ml';
+    document.getElementById('r-conv').textContent = '종이컵 약 ' + cups(ml) + '컵 · 생수병(500ml) ' + bottles(ml);
+    var extra = (!d.drain && count >= 2) ? ' 2배가 아닌 이유는 물이 많을수록 증발이 줄기 때문이에요.' : '';
+    document.getElementById('r-note').textContent = d.note + extra;
+  }
+  btns.forEach(function(b){
+    b.addEventListener('click', function(){
+      btns.forEach(function(x){ x.classList.remove('on'); });
+      b.classList.add('on');
+      count = parseInt(b.dataset.n, 10);
+      update();
+    });
+  });
+  sel.addEventListener('change', update);
+  update();
+})();
+</script>
+</body>
+</html>

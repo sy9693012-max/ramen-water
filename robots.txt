@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://sy9693012-max.github.io/ramen-water/sitemap.xml
