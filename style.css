@@ -76,6 +76,7 @@ footer a{color:#f0d9c8}
 .game-banner{display:block; background:linear-gradient(135deg,#16a34a,#15803d); color:#fff; border-radius:14px; padding:16px 18px; font-weight:700; margin:14px 0}
 .game-banner.blue{background:linear-gradient(135deg,#0284c7,#075985)}
 .game-banner.orange{background:linear-gradient(135deg,#ea580c,#9a3412)}
+.game-banner.red{background:linear-gradient(135deg,#d92e1c,#9c1c0e)}
 .game-banner:hover{text-decoration:none; filter:brightness(1.05)}
 .game-banner span{display:block; font-size:13px; font-weight:400; color:#d9f7e2; margin-top:2px}
 
